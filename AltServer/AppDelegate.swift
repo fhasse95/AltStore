@@ -240,7 +240,7 @@ private extension AppDelegate
             }
         }
         
-        if !self.pluginManager.isMailPluginInstalled || self.pluginManager.isUpdateAvailable
+        if false // !self.pluginManager.isMailPluginInstalled || self.pluginManager.isUpdateAvailable
         {
             AnisetteDataManager.shared.isXPCAvailable { (isAvailable) in
                 if isAvailable

@@ -15,11 +15,11 @@ import AltSign
 public extension StoreApp
 {
     #if ALPHA
-    static let altstoreAppID = "com.rileytestut.AltStore.Alpha"
+    static let altstoreAppID = "com.rileytestut.AltStore.iPad.Alpha"
     #elseif BETA
-    static let altstoreAppID = "com.rileytestut.AltStore.Beta"
+    static let altstoreAppID = "com.rileytestut.AltStore.iPad.Beta"
     #else
-    static let altstoreAppID = "com.rileytestut.AltStore"
+    static let altstoreAppID = "com.rileytestut.AltStore.iPad"
     #endif
     
     static let dolphinAppID = "me.oatmealdome.dolphinios-njb"

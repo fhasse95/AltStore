@@ -8,9 +8,9 @@
 
 #import "NSError+ALTServerError.h"
 
-NSErrorDomain const AltServerErrorDomain = @"com.rileytestut.AltServer";
-NSErrorDomain const AltServerInstallationErrorDomain = @"com.rileytestut.AltServer.Installation";
-NSErrorDomain const AltServerConnectionErrorDomain = @"com.rileytestut.AltServer.Connection";
+NSErrorDomain const AltServerErrorDomain = @"com.rileytestut.AltServer.iPad";
+NSErrorDomain const AltServerInstallationErrorDomain = @"com.rileytestut.AltServer.iPad.Installation";
+NSErrorDomain const AltServerConnectionErrorDomain = @"com.rileytestut.AltServer.iPad.Connection";
 
 NSErrorUserInfoKey const ALTUnderlyingErrorDomainErrorKey = @"underlyingErrorDomain";
 NSErrorUserInfoKey const ALTUnderlyingErrorCodeErrorKey = @"underlyingErrorCode";

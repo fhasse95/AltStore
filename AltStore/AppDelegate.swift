@@ -17,11 +17,11 @@ import Roxas
 
 extension AppDelegate
 {
-    static let openPatreonSettingsDeepLinkNotification = Notification.Name("com.rileytestut.AltStore.OpenPatreonSettingsDeepLinkNotification")
-    static let importAppDeepLinkNotification = Notification.Name("com.rileytestut.AltStore.ImportAppDeepLinkNotification")
-    static let addSourceDeepLinkNotification = Notification.Name("com.rileytestut.AltStore.AddSourceDeepLinkNotification")
+    static let openPatreonSettingsDeepLinkNotification = Notification.Name("com.rileytestut.AltStore.iPad.OpenPatreonSettingsDeepLinkNotification")
+    static let importAppDeepLinkNotification = Notification.Name("com.rileytestut.AltStore.iPad.ImportAppDeepLinkNotification")
+    static let addSourceDeepLinkNotification = Notification.Name("com.rileytestut.AltStore.iPad.AddSourceDeepLinkNotification")
     
-    static let appBackupDidFinish = Notification.Name("com.rileytestut.AltStore.AppBackupDidFinish")
+    static let appBackupDidFinish = Notification.Name("com.rileytestut.AltStore.iPad.AppBackupDidFinish")
     
     static let importAppDeepLinkURLKey = "fileURL"
     static let appBackupResultKey = "result"

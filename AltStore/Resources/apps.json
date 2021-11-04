@@ -1,11 +1,11 @@
 {
   "name": "AltStore",
-  "identifier": "com.rileytestut.AltStore",
+  "identifier": "com.rileytestut.AltStore.iPad",
   "sourceURL": "https://cdn.altstore.io/file/altstore/apps.json",
   "apps": [
     {
       "name": "AltStore",
-      "bundleIdentifier": "com.rileytestut.AltStore",
+      "bundleIdentifier": "com.rileytestut.AltStore.iPad",
       "developerName": "Riley Testut",
       "version": "1.4.7",
       "versionDate": "2021-10-27T13:00:00-07:00",
@@ -33,7 +33,7 @@
     },
     {
       "name": "AltStore",
-      "bundleIdentifier": "com.rileytestut.AltStore.Beta",
+      "bundleIdentifier": "com.rileytestut.AltStore.iPad.Beta",
       "developerName": "Riley Testut",
       "subtitle": "An alternative App Store for iOS.",
       "version": "1.5b2",

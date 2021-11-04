@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BF5C5FC4237DF5AE00EDD0C6"
                BuildableName = "AltPlugin.mailbundle"
-               BlueprintName = "AltPlugin"
+               BlueprintName = "AltPlugin iPad"
                ReferencedContainer = "container:AltStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -52,7 +52,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BF5C5FC4237DF5AE00EDD0C6"
             BuildableName = "AltPlugin.mailbundle"
-            BlueprintName = "AltPlugin"
+            BlueprintName = "AltPlugin iPad"
             ReferencedContainer = "container:AltStore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

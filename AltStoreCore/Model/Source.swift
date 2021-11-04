@@ -11,9 +11,9 @@ import CoreData
 public extension Source
 {
     #if ALPHA
-    static let altStoreIdentifier = "com.rileytestut.AltStore.Alpha"
+    static let altStoreIdentifier = "com.rileytestut.AltStore.iPad.Alpha"
     #else
-    static let altStoreIdentifier = "com.rileytestut.AltStore"
+    static let altStoreIdentifier = "com.rileytestut.AltStore.iPad"
     #endif
     
     #if STAGING

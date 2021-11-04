@@ -13,7 +13,7 @@ import CryptoKit
 import STPrivilegedTask
 
 private let pluginDirectoryURL = URL(fileURLWithPath: "/Library/Mail/Bundles", isDirectory: true)
-private let pluginURL = pluginDirectoryURL.appendingPathComponent("AltPlugin.mailbundle")
+private let pluginURL = pluginDirectoryURL.appendingPathComponent("AltPlugin iPad.mailbundle")
 
 enum PluginError: LocalizedError
 {

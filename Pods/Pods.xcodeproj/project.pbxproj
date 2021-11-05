@@ -614,8 +614,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA1CB5949B054973CAE7C668F3506B1D /* STPrivilegedTask-umbrella.h in Headers */,
 				9D0E99B326D76B98393DF8B1B3EB5AD5 /* STPrivilegedTask.h in Headers */,
+				DA1CB5949B054973CAE7C668F3506B1D /* STPrivilegedTask-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,8 +766,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -916,8 +916,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C84999B38A1A4FC9172A12F6A3D1C69 /* STPrivilegedTask-dummy.m in Sources */,
 				642FC67C045E71923C63F4C7DF552543 /* STPrivilegedTask.m in Sources */,
+				8C84999B38A1A4FC9172A12F6A3D1C69 /* STPrivilegedTask-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

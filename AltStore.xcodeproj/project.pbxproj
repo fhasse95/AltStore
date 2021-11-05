@@ -579,7 +579,7 @@
 		BF580495246A3CB5008AE704 /* UIColor+AltBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AltBackup.swift"; sourceTree = "<group>"; };
 		BF580497246A3D19008AE704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF580499246A4153008AE704 /* AltBackup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AltBackup.entitlements; sourceTree = "<group>"; };
-		BF5C5FC5237DF5AE00EDD0C6 /* AltPlugin iPad.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AltPlugin iPad.mailbundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C5FC5237DF5AE00EDD0C6 /* AltPlugin.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltPlugin.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5C5FC7237DF5AE00EDD0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5C5FCD237DF69100EDD0C6 /* ALTPluginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTPluginService.h; sourceTree = "<group>"; };
 		BF5C5FCE237DF69100EDD0C6 /* ALTPluginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALTPluginService.m; sourceTree = "<group>"; };
@@ -1448,7 +1448,7 @@
 				BFD2476A2284B9A500981D42 /* AltStore.app */,
 				BF45868D229872EA00BD7491 /* AltServer.app */,
 				BF45872B2298D31600BD7491 /* libimobiledevice.a */,
-				BF5C5FC5237DF5AE00EDD0C6 /* AltPlugin iPad.mailbundle */,
+				BF5C5FC5237DF5AE00EDD0C6 /* AltPlugin.mailbundle */,
 				BF58047B246A28F7008AE704 /* AltBackup.app */,
 				BF18BFE724857D7900DD5981 /* AltDaemon */,
 				BF66EE7E2501AE50007EE018 /* AltStoreCore.framework */,
@@ -1863,9 +1863,9 @@
 			productReference = BF58047B246A28F7008AE704 /* AltBackup.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF5C5FC4237DF5AE00EDD0C6 /* AltPlugin iPad */ = {
+		BF5C5FC4237DF5AE00EDD0C6 /* AltPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF5C5FC8237DF5AE00EDD0C6 /* Build configuration list for PBXNativeTarget "AltPlugin iPad" */;
+			buildConfigurationList = BF5C5FC8237DF5AE00EDD0C6 /* Build configuration list for PBXNativeTarget "AltPlugin" */;
 			buildPhases = (
 				BF5C5FC1237DF5AE00EDD0C6 /* Sources */,
 				BF5C5FC2237DF5AE00EDD0C6 /* Frameworks */,
@@ -1876,9 +1876,9 @@
 			);
 			dependencies = (
 			);
-			name = "AltPlugin iPad";
+			name = AltPlugin;
 			productName = AltPlugin;
-			productReference = BF5C5FC5237DF5AE00EDD0C6 /* AltPlugin iPad.mailbundle */;
+			productReference = BF5C5FC5237DF5AE00EDD0C6 /* AltPlugin.mailbundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		BF66EE7D2501AE50007EE018 /* AltStoreCore */ = {
@@ -2041,7 +2041,7 @@
 				BFD247692284B9A500981D42 /* AltStore */,
 				BF45868C229872EA00BD7491 /* AltServer */,
 				BF45872A2298D31600BD7491 /* libimobiledevice */,
-				BF5C5FC4237DF5AE00EDD0C6 /* AltPlugin iPad */,
+				BF5C5FC4237DF5AE00EDD0C6 /* AltPlugin */,
 				BF58047A246A28F7008AE704 /* AltBackup */,
 				BF18BFE624857D7900DD5981 /* AltDaemon */,
 				BF66EE7D2501AE50007EE018 /* AltStoreCore */,
@@ -3427,7 +3427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF5C5FC8237DF5AE00EDD0C6 /* Build configuration list for PBXNativeTarget "AltPlugin iPad" */ = {
+		BF5C5FC8237DF5AE00EDD0C6 /* Build configuration list for PBXNativeTarget "AltPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF5C5FC9237DF5AE00EDD0C6 /* Debug */,

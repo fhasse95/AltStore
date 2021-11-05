@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BF45868C229872EA00BD7491"
-            BuildableName = "AltServer iPad.app"
+            BuildableName = "AltServer.app"
             BlueprintName = "AltServer"
             ReferencedContainer = "container:AltStore.xcodeproj">
          </BuildableReference>
